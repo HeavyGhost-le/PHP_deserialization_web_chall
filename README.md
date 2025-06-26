@@ -14,7 +14,6 @@ This challenge is ideal for CTF players, red teamers, and students who want to p
   - `profile`: Serialized and base64-encoded PHP object
   - `token`: HMAC of a secret token tied to the object
 - 📦 **Vulnerability**: Insecure deserialization
-- 🧩 **Flag Location**: `/var/www/html/flag.txt`
 - 🔐 **Hardening in place**:
   - Dangerous functions disabled: `exec`, `passthru`, `shell_exec`, `system`, `proc_open`, `popen`
   - `allow_url_include=Off`, `expose_php=Off`
