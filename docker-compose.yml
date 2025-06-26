@@ -8,4 +8,4 @@ services:
       - ./web:/var/www/html
     restart: unless-stopped
     environment:
-      - FLAG=acsctf{realistic_php_obj_injection_ftw}
+      - FLAG=*************
